@@ -12,6 +12,7 @@
 	.nav {
 		display: none;
 	}
+
 	.nav.open {
 		display: block;
 		position: fixed;
@@ -34,5 +35,11 @@
 		background: none;
 		border: none;
 		cursor: pointer;
+	}
+
+	.close {
+		position: absolute;
+		top: 24px;
+		right: 16px;
 	}
 }

@@ -9,6 +9,10 @@ export default function Menu() {
 	const open = () => {
 		document.querySelector("nav")?.classList.add(styles.open);
 	};
+
+	const [ isOpen, setOpen ] = useState<boolean>(false);
+	const open = () => setOpen(true);
+
 	return (
 		<div>
 			<nav className={styles.nav}>

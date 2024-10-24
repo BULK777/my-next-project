@@ -20,7 +20,7 @@ export default async function Home() {
 		<section className={styles.top}>
 			<div>
 				<h1 className={styles.title}>テクノロジーで世界を変える</h1>
-				<p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。</p>
+				<p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。テスト</p>
 			</div>
 			<Image
 				className={styles.bgimg}

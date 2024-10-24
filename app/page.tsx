@@ -17,30 +17,30 @@ export default async function Home() {
 
 	return (
 		<>
-		<section className={styles.top}>
-			<div>
-				<h1 className={styles.title}>テクノロジーで世界を変える</h1>
-				<p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。テスト</p>
-			</div>
-			<Image
-				className={styles.bgimg}
-				src={mvPic}
-				alt=""
+			<section className={styles.top}>
+				<div>
+					<h1 className={styles.title}>テクノロジーで世界を変える</h1>
+					<p className={styles.description}>私たちは市場をリードしているグローバルテックカンパニーです。テスト</p>
+				</div>
+				<Image
+					className={styles.bgimg}
+					src={mvPic}
+					alt=""
 
-				// Local Imagesを使うと以下の記述は省略できる
-				// src="/img-mv.jpg"
-				// width={4000}
-				// height={1200}
-			/>
-		</section>
-		<section className={styles.news}>
-			<h2 className={styles.newsTitle}>News</h2>
-			<NewsList news={data.contents} />
-			<div className={styles.newsLink}>
-				<ButtonLink href="/news">もっと見る</ButtonLink>
-			</div>
+					// Local Imagesを使うと以下の記述は省略できる
+					// src="/img-mv.jpg"
+					// width={4000}
+					// height={1200}
+				/>
+			</section>
+			<section className={styles.news}>
+				<h2 className={styles.newsTitle}>News</h2>
+				<NewsList news={data.contents} />
+				<div className={styles.newsLink}>
+					<ButtonLink href="/news">もっと見る</ButtonLink>
+				</div>
 
-		</section>
+			</section>
 		</>
 	);
 }
